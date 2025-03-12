@@ -47,11 +47,11 @@ function Products() {
     setSelectedProduct(null); // Limpa o produto selecionado
   };
   useEffect(() => {
-    fetch('/api/teste-front-end/junior/tecnologia/lista-produtos/produtos.json')
+    fetch('/api/produtos')
       .then(response => response.json())
       .then(data => {
         console.log('API Response:', data);
-        setProducts(data.products || data); // Ajuste conforme o formato da API
+        setProducts(data.products || data);
       })
       .catch(error => console.error('Fetch Error:', error));
   }, []);
