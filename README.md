@@ -5,6 +5,7 @@ Teste Econverse: Vaga Desenvolvedor Front-End
 Este projeto é uma vitrine de produtos desenvolvida com React, TypeScript e Vite. Ele consome dados de produtos em formato JSON e exibe as informações de forma interativa. Ao clicar em um produto, um modal é aberto exibindo as principais informações do produto, conforme o layout fornecido.
 
 Tecnologias Utilizadas
+
 React
 TypeScript
 Vite
